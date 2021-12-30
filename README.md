@@ -9,6 +9,10 @@ A Human Pose Skeleton represents the orientation of a person in a graphical form
  
 OpenPose is one of the most popular bottom-up approaches for multi-person human pose estimation, partly because of their well documented GitHub implementation.
 As with many bottom-up approaches, OpenPose first detects parts (key points) belonging to every person in the image, followed by assigning parts to distinct individuals. Shown below is the architecture of the OpenPose model.
+<hr>
+<img src = '/images/2.png'>
+<hr>
+
 
 2. DeepCut
  
@@ -16,9 +20,15 @@ DeepCut is a bottom-up approach for multi-person human pose estimation. The auth
 Produce a set of D body part candidates. This set represents all possible locations of body parts for every person in the image. Select a subset of body parts from the above set of body part candidates.
 Label each selected body part with one of C body part classes. The body part classes represent the types of parts, such as “arm”, “leg”, “torso” etc.
 Partition body parts that belong to the same person.
+<hr>
+<img src = '/images/3.png'>
+<hr>
 
 3. RMPE (AlphaPose)
 RMPE is a popular top-down method of Pose Estimation. The authors posit that top-down methods are usually dependent on the accuracy of the person detector, as pose estimation is performed on the region where the person is located. Hence, errors in localization and duplicate bounding box predictions can cause the pose extraction algorithm to perform sub-optimally.
+<hr>
+<img src = '/images/4.png'>
+<hr>
 
 <h2> Some applications </h2>
 
