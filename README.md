@@ -2,7 +2,7 @@
 <hr>
 A Human Pose Skeleton represents the orientation of a person in a graphical format. Essentially, it is a set of coordinates that can be connected to describe the pose of the person. Each coordinate in the skeleton is known as a part (or a joint, or a keypoint). A valid connection between two parts is known as a pair (or a limb). Note that, not all part combinations give rise to valid pairs.
 <hr>
-<img src = '/images.1.jpg'>
+<img src = '/images/1.jpg'>
 <h2> Deep learning methods </h2>
 
 1. OpenPose
